@@ -1,0 +1,1 @@
+Este projeto não roda fora do live server do VS Code, por causa dos imports e exports do ES6 Modules, porque não deixa funcionar por conta de algum bloqueio, se você abrir como arquivo local e ver o console do navegador verá que o acesso foi bloqueado.
