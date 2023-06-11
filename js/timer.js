@@ -9,6 +9,7 @@ export default function Timer({
    let timerTimeOut
    let minutes = Number(minutesDisplay.textContent)
 
+   // Para atualizar as casas decimais quando tiver menor que 10, adicionar um 0 a frente
    function updateDisplay(newMinutes, seconds) {
       newMinutes = newMinutes === undefined ? minutes : newMinutes
       seconds = seconds === undefined ? 0 : seconds
